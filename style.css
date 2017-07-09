@@ -1,0 +1,161 @@
+@import 'https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,700';
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+#supportchatwidget{
+    z-index: 999;
+}
+#supportchatwidget #tc-target  {
+    position: absolute;
+    top: 35.2%;
+    right: 2.2%;
+    width: 32.4%;
+    height: 55px;
+}
+#supportchatwidget #wrapper  {
+	background:url('../img/pepperfry.png') no-repeat center center;
+	width:1351px;
+	height:1995px;
+	background-size: 1351px 1995px;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	position:relative;
+    z-index:999;
+}
+#supportchatwidget #widget iframe {
+	height:100%;
+	width:100%;
+    border:0 none;
+    z-index:999;
+}
+#supportchatwidget #widget-close  {
+    position: fixed;
+    bottom: 60%;
+    right: 0;
+    width: 290px;
+    /* height: 30px; */
+    background: #eee;
+    text-align: left;
+    line-height: 47px;
+    border: 1px solid #d4d4d4;
+    border-bottom: 0 none;
+    color: #000000;
+    padding-left: 0;
+    font-size:14px;
+	font-weight: 700;
+    z-index:10000;
+}
+
+#supportchatwidget #widget  {
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 290px;
+    height: 60%;
+    background: #FFFFFF;
+    border-right: 1px solid #d4d4d4;
+    z-index: 10;
+    border-left: 1px solid #d4d4d4;
+    border-bottom: none;
+    z-index:10000;
+}
+/*
+#supportchatwidget #widget-open {
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    border: 1px solid #3498db;
+    bottom: 0;
+    right: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    margin-right: 25px;
+    color: #fff;
+    z-index: 999;
+    border-radius: 50%;
+    padding: 0px;
+    line-height: 65px;
+    text-align: center;
+}
+*/
+
+#supportchatwidget #widget-open  {
+	width: 250px;
+	position: fixed;
+	border-left: 1px solid #3498db;
+	border-right: 1px solid #3498db;
+	border-top: 1px solid #3498db;
+	bottom: 0;
+	right: 0;
+	text-align: left;
+	line-height: 45px;
+	cursor:pointer;
+	background-color: #3498db;
+	color: #000000;
+	font-weight: 700;
+    font-size:14px;
+    z-index:10000;
+}
+#supportchatwidget .tc-widget  {
+	display:none;
+}
+/* Newly added styles for new designs */
+#supportchatwidget .comments  {
+    color: #fff;
+    font-size: 24px !important;
+    float: right;
+    margin: 5px 0 0 0;
+}
+#supportchatwidget .icons  {
+	font-size: 20px !important;
+	color: #909090;
+}
+#supportchatwidget .vtop  {
+    vertical-align: middle;
+    padding: 8px 12px 17px 10px;
+    display: block;
+}
+#supportchatwidget .right  {
+	float: right;
+    /* padding: 10px; */
+    cursor: pointer;
+    font-size: 40px;
+    margin-top: -17px;
+    margin-right: 12px;
+    font-weight: bold;
+    color: #F08080;
+    padding-bottom: 10px;
+}
+#supportchatwidget .cursor  {
+	cursor: pointer;
+}
+#supportchatwidget .logo-img-icon {
+    float: left;
+    margin-right: 10px;
+    padding: 0px;
+    overflow: hidden;
+    height: 45px;
+}
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+	margin: 0 0 5px 0;
+}
+.blink {
+  animation: pulse 1.1s infinite;
+}
+@keyframes pulse {
+  0% {
+    background-color: #0b5290;
+  }
+  50% {
+    background-color: #207ac9;
+  }
+  100% {
+    background-color: #0b5290;
+  }
+}
+
+@media screen and (max-width:480px){
+    #supportchatwidget .tc-widget {
+        width: 99.55% !important;
+    }
+}
