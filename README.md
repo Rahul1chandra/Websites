@@ -7,4 +7,4 @@ Technology stack List::
 4) Bootstraps
 
 Live/Demo 
-www.magical.pt
+magical_DOT_pt
