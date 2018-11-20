@@ -1,10 +1,7 @@
 # Websites
 ##### Static website #####
-Technology stack List::
+Technology used::
 1)  HTML
 2) CSS
 3) js
 4) Bootstraps
-
-Live/Demo 
-magical_DOT_pt
